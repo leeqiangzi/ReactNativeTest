@@ -1,2 +1,0 @@
-# ReactNativeTest
-ReactNative练习
