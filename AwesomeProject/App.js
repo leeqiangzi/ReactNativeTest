@@ -9,29 +9,25 @@
 import React from "react";
 import type { Node } from "react";
 import {
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
-  StyleSheet,
-  Text,
-  useColorScheme,
-  View,
+	SafeAreaView,
+	StatusBar,
+	StyleSheet,
+	Text,
+	View,
 } from "react-native";
 
-import {
-  Colors,
-  DebugInstructions,
-  Header,
-  LearnMoreLinks,
-  ReloadInstructions,
-} from "react-native/Libraries/NewAppScreen";
-
 const App: () => Node = () => {
-  return (
-    <SafeAreaView style={{ flex: 1 }}>
-      <StatusBar barStyle={"dark-content"} />
-    </SafeAreaView>
-  );
+	return (
+		<SafeAreaView style={{ flex: 1 }}>
+			<StatusBar barStyle={"dark-content"} />
+			<View style={{
+				width: 100,
+				height: 100,
+				backgroundColor: 'red'
+			}}>
+			</View>
+		</SafeAreaView>
+	);
 };
 
 const styles = StyleSheet.create({});
